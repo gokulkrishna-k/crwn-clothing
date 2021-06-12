@@ -1,9 +1,7 @@
 import React from 'react';
 import CustomButton from '../custom-button/custom-button';
 import FormInput from '../form-input/form-input';
-
 import { auth, SignInWithGoogle } from '../../firebase/firebase.utils';
-
 import './sign-in.scss';
 
 class SignIn extends React.Component {
