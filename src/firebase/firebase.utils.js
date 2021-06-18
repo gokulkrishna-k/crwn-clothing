@@ -29,7 +29,7 @@ export const createUserProfileDocumnet = async (userAuth, aditionalData) => {
         ...aditionalData,
       });
     } catch (error) {
-      console.log('error creating user: ', error.message);
+      alert(error.message);
     }
   }
 
